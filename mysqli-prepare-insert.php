@@ -1,7 +1,7 @@
 <?php
 /**
  * 
- * DYNAMIC INSERTION FOR MYSQLI PREPARE
+ * DYNAMIC DB INSERTION FOR MYSQLI PREPARE
  * 
  * $fielddata - Array contains Field Names
  * $fieldvalue - Array contains Field Data
@@ -55,4 +55,3 @@ call_user_func_array(array($stmt,'bind_param'),$bind_names);
     }
     return sprintf("%s", $str);
 }
-?>
