@@ -6,6 +6,7 @@
  * $fielddata - Array contains Field Names
  * $fieldvalue - Array contains Field Data
  * $tableName - Variable contains table name
+ *
  */
  $fieldvalue_join=implode(',', array_map('addquote', $fieldvalue));
  
